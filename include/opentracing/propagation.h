@@ -54,7 +54,7 @@ enum class SpanReferenceType {
   // See http://opentracing.io/spec/
   //
   // See opentracing.FollowsFrom()
-  FollowsFromRef = 2
+  FollowsFromRef = 2,
     
   //SelfRef defines the refer of ItSelf
   //sometimes we need to extract  the spans to itself 
