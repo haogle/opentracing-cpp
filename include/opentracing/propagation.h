@@ -55,6 +55,13 @@ enum class SpanReferenceType {
   //
   // See opentracing.FollowsFrom()
   FollowsFromRef = 2
+    
+  //SelfRef defines the refer of ItSelf
+  //sometimes we need to extract  the spans to itself 
+  //this is the solution
+    
+    
+  SelfRef=3
 };
 
 // Returns the std::error_category class used for opentracing propagation
