@@ -31,7 +31,7 @@ class SpanContext {
   // Clone creates a copy of SpanContext.
   //
   // Returns nullptr on failure.
-  virtual std::unique_ptr<SpanContext> Clone() const noexcept = 0;
+  // virtual std::unique_ptr<SpanContext> Clone() const noexcept = 0;
 };
 
 struct LogRecord {
