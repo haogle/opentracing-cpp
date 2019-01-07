@@ -49,7 +49,7 @@ class MockSpanContext : public SpanContext {
     return ExtractSpanContext(propagation_options, reader, data_);
   }
 
-  std::unique_ptr<SpanContext> Clone() const noexcept override;
+  //std::unique_ptr<SpanContext> Clone() const noexcept override;
 
  private:
   friend MockSpan;
